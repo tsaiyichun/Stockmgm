@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logo1" >
+
+    <TextView
+        android:id="@+id/textViewErr"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_x="99dp"
+        android:layout_y="369dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/brown"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/editTextAccount"
+        android:layout_width="230dp"
+        android:layout_height="39dp"
+        android:layout_x="67dp"
+        android:layout_y="121dp"
+        android:ems="10"
+        android:hint="@string/account"
+        android:maxLength="10"
+        android:textSize="20sp" >
+
+        <requestFocus />
+    </EditText>
+
+    
+    
+    <EditText
+        android:id="@+id/editTextPwd"
+        android:layout_width="224dp"
+        android:layout_height="wrap_content"
+        android:layout_x="66dp"
+        android:layout_y="167dp"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:maxLength="10"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:layout_x="174dp"
+        android:layout_y="249dp"
+        android:background="@color/yellow"
+        android:minHeight="48dp"
+        android:minWidth="64dp"
+        android:text="@string/submit"
+        android:textSize="25sp" />
+
+</AbsoluteLayout>
